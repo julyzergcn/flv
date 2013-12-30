@@ -16,4 +16,5 @@ ITEM_PIPELINES = (
     'project.pipelines.FlvPipeline',
 )
 
-IMAGES_STORE = join(BASE_DIR, 'flvs')
+#~ IMAGES_STORE = join(BASE_DIR, 'flvs')
+IMAGES_STORE = join(BASE_DIR, '..')
